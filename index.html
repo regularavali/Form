@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.formalign{
+float:left;
+text-align:center;
+}
+.input
+{margin:60px;
+}
+</style>
+</head>
+<body>
+<h4>Create New Account</h4>
+<p>its quick and easy</p>
+<form action="new.php" method="POST" class="formalign">
+<br><br>
+<input type="text"name="firstname"id="firstname"value=""placeholder="firstname"/>
+<br><br>
+<input type="text"name="surname"id="surname"value=""placeholder="surname"/>
+<br><br>
+<input type="emailid"name="emailid"id="emailid"value=""placeholder="emailid"/>
+<br><br>
+<input type="number"name="mobilenumber"id="mobilenumber"value=""placeholder="mobilenumber"/>
+<br><br>
+<input type="password"name="newpassword"id="newpassword"value=""placeholder="newpassword"/>
+<br><br>
+<input type="radio" name="gender" id="gender" value="male">male
+<input type="radio" name="gender" id="gender" value="female">female
+<input type="radio" name="gender" id="gender" value="custom">custom
+<br><br>
+<input type="submit" value="signup"></form>
+</body>
+</html>
